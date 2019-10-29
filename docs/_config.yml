@@ -2,6 +2,7 @@ theme: jekyll-theme-architect
 title: K-Sudoku
 description: Beautiful Sudoku puzzling
 show_downloads: true
+google_analytics: UA-151160883-1
 github:
   contributor_url: https://github.com/milospanasiuk
   contributor_name: milospanasiuk
