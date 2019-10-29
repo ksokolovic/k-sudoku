@@ -1,0 +1,11 @@
+theme: jekyll-theme-architect
+title: K-Sudoku
+description: Beautiful Sudoku puzzling
+show_downloads: true
+github:
+  linux_x64: http://google.com
+  linux_x32: http://google.com
+  snap_store: http://google.com
+  windows_x64: http://google.com
+  windows_x32: http://google.com
+  darwin: http://google.com
