@@ -38,17 +38,6 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          {{% if site.images %}}
-          <ul id="lightSlider" style="width: 652px;">
-          {{% for image in site.images %}}
-          <li>
-            <img src="{{ image.url }}"/>
-          </li>
-          {{% endfor %}}
-          </ul>
-          {{% endif %}}
-
-
           {{ content }}
         </section>
 
