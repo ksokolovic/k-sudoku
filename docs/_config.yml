@@ -11,3 +11,14 @@ github:
   windows_x64: https://github.com/ksokolovic/k-sudoku/releases/download/v1.3.0/Sudoku-win32-1.3.0-x64.tar.gz
   windows_x32: https://github.com/ksokolovic/k-sudoku/releases/download/v1.3.0/Sudoku-win32-1.3.0-ia32.tar.gz
   darwin: https://github.com/ksokolovic/k-sudoku/releases/download/v1.3.0/Sudoku-darwin-1.3.0-x64.tar.gz
+images:
+  - url: /assets/images/home_light.png
+    title: Home Light
+  - url: /assets/images/home_dark.png
+    title: Home Dark
+  # - url: /assets/images/gameplay_1.png
+  # - url: /assets/images/gameplay_2.png
+  # - url: /assets/images/gameplay_3.png
+  # - url: /assets/images/gameplay_4.png
+  # - url: /assets/images/gameplay_5.png
+  # - url: /assets/images/gameplay_6.png
