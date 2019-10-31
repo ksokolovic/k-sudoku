@@ -38,7 +38,14 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <img src="{{ site.url }}{{ site.baseurl }}/assets/gallery/gameplay_1.png" />
+          <ul id="gallery">
+            <li>
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/gallery/gameplay_1.png" />
+            </li>
+            <li>
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/gallery/gameplay_2.png" />
+            </li>
+          </ul>
           {{ content }}
         </section>
 
@@ -89,5 +96,9 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+
+    <script>
+      $('#gallery').lightSlider();
+    </script>
   </body>
 </html>
