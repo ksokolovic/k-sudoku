@@ -70,6 +70,10 @@
 
         <aside id="sidebar">
           {% if site.show_downloads %}
+            <a href="{{ site.github.snap_store }}" target="_blank" class="button">
+              <small>Install from</small>
+              Snap Store
+            </a>
             <a href="{{ site.github.linux_x64 }}" class="button">
               <small>Download</small>
               Linux 64bit
@@ -77,10 +81,6 @@
             <a href="{{ site.github.linux_x32 }}" class="button">
               <small>Download</small>
               Linux 32bit
-            </a>
-            <a href="{{ site.github.snap_store }}" target="_blank" class="button">
-              <small>Install from</small>
-              Snap Store
             </a>
             <a href="{{ site.github.windows_x64 }}" class="button">
               <small>Download</small>
