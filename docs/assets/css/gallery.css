@@ -1,0 +1,6 @@
+.lightSlider li img {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  height: 75%;
+}
