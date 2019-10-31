@@ -40,10 +40,28 @@
         <section id="main-content">
           <ul id="gallery">
             <li>
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/gallery/home_light.png" />
+            </li>
+            <li>
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/gallery/home_dark.png" />
+            </li>
+            <li>
                 <img src="{{ site.url }}{{ site.baseurl }}/assets/gallery/gameplay_1.png" />
             </li>
             <li>
                 <img src="{{ site.url }}{{ site.baseurl }}/assets/gallery/gameplay_2.png" />
+            </li>
+            <li>
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/gallery/gameplay_3.png" />
+            </li>
+            <li>
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/gallery/gameplay_4.png" />
+            </li>
+            <li>
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/gallery/gameplay_5.png" />
+            </li>
+            <li>
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/gallery/gameplay_6.png" />
             </li>
           </ul>
           {{ content }}
@@ -98,7 +116,14 @@
     {% endif %}
 
     <script>
-      $('#gallery').lightSlider();
+      $('#gallery').lightSlider({
+        item: 1,
+        slideMove: 1,
+        auto: true,
+        speed: 500,
+        gallery: false,
+        loop: true
+      });
     </script>
   </body>
 </html>
