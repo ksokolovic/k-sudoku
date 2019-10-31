@@ -2,9 +2,9 @@
 layout: default
 ---
 
-# Sudoku
+# K-Sudoku
 
-Cross platform Sudoku game, built with [Electron](https://electronjs.org/).
+K-Sudoku is a cross platform Sudoku game, built with [Electron](https://electronjs.org/).
 
 ## Version 1.3.0
 
